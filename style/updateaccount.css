@@ -1,0 +1,35 @@
+.form-section-update {
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.5);
+    border-radius: 10px; 
+    /* margin: 24px 0; */
+    width: 100%;
+    padding: 24px 0;
+}
+.form-update-container {
+    margin-top: 24px;
+}
+.width-300 {
+    width: 500px;
+}
+/* .head-update h3{
+    
+} */
+.main-form {
+    margin: 24px 0;
+}
+
+.nhap {
+    padding: 12px 0;
+}
+.nhap input{
+    padding: 4px 0;
+}
+
+.btn-sbm button{
+    width: 90px;
+    background-color: black;
+    color: white;
+    padding: 2px 0;
+    border-radius: 10px;
+}

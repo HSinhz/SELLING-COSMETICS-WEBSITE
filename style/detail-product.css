@@ -1,0 +1,64 @@
+.content-section-detail {
+    display: flex;
+    flex-direction: row;
+    /* width: 1600px; */
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+.layout-category {
+    padding: 24px;
+    flex: 1;
+}
+
+.img-product {
+    display: block;
+    flex: 3;
+}
+
+.detail-product {
+    flex: 1.5;
+} 
+
+.detail-product {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-product .img{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-content: center; */
+}
+.body-product {
+    display: flex;
+    flex-direction: column;
+}
+
+.pad-24 {
+    padding: 24px;
+}
+
+.pad-16 {
+    padding: 16px;
+}
+
+/* .mt-16 {
+    margin-top: 16px;
+} */
+
+.buy-form {
+    /* float: right; */
+    padding: 24px ;
+}
+.quanti-pro {
+    text-align: center;
+}
+.btn-click {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+

@@ -1,0 +1,38 @@
+.box-infor {
+    margin-top: 48px;
+    padding-top: 60px ;
+    /* border-radius: 50px; */
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.5);
+    height: 500px;
+    
+}
+.box-infor h1 {
+    text-align: center;
+}
+.sub-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-top: 32px    ;
+    /* text-align: center; */
+}
+.left-box {
+    flex: 1;
+    width: 40%;
+    height: 80% ;
+    /* text-align: center; */
+    /* background-color: black; */
+}
+
+.right-box {
+    flex: 2;
+    width: 70%;
+    /* text-align: center; */
+
+}
+
+.sub-box .detail {
+    padding: 16px 0;
+    padding-left: 78px;
+}

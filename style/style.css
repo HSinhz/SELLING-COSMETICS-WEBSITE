@@ -1,0 +1,333 @@
+/* CSS main */
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html {
+    font-family: initial;
+    list-style-type: none;
+}
+
+.container {
+    border:1px solid #000;
+    height: auto;
+    width:100%;
+    margin:0 auto;
+}
+.header {
+    border: 1px solid #000;
+    height: 100px;
+    width:100%
+}
+
+.menu {
+    border: 1px solid #d02d2d;
+    height: 50px;
+    width: 100%;
+    background: #d02d2d;
+}
+
+
+.footer{
+    border: 1px solid #6ce06a;
+    height: 150px;
+    width: 100%;
+    clear: both;
+}
+
+/* End CSS main */
+
+/* Begin CSS important */
+.width-1200 {
+    width: 800px !important;
+}
+.width-800 {
+    width: 800px !important;
+}
+
+.width-100per {
+    width: 700px !important;
+}
+
+.error {
+    color: red;
+}
+
+/* End CSS important */
+
+/* Begin CSS header  */
+header .container-header{
+    background-color: white;
+    padding: 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-bottom: 1px solid #000;
+}
+#logo{
+    width: 130px;
+}
+#nav-left li{
+    /* block hàng ngang */
+    display: inline-block;
+    padding: 20px;
+}
+#nav-left li:hover a{
+    opacity: 0.5;
+}
+
+#nav-left li a{
+    font-size: 16px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.sign-in,
+.log-in{
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.sign-in:hover,
+.log-in:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #000;
+}
+.name-account {
+    padding: 0 24px;
+    font-size: 18px;
+}
+
+.name-account:hover {
+    opacity: 0.6;
+}
+
+/* End CSS header */
+
+/* Begin CSS MGR */
+#content .content-section{
+    width: 400px;
+    max-width: 100%;
+    padding: 64px 16px 112px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#content .form-login {
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.5);
+    border-radius: 10px;  
+    padding: 120px 0;  
+    
+}
+#content .box-input {
+    padding: 8px 0;
+}
+#content .form-login .form-input{
+    padding: 14px 16px;
+    font-size: 18px;
+    width: 330px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+#content .btn-submit {
+    width: 330px;
+    padding: 14px 16px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#content .btn-submit:hover {
+    opacity: 0.5;
+}
+/* End CSS MGR */
+
+/* Begin CSS product */
+
+.content-section-product {
+    display: flex;
+    flex-direction: row;
+    width: 1400px;
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layout-category {
+    width: 280px;
+    margin: 32px 32px 0 0;
+    border: 1px solid #ccc  ;
+}
+
+.layout-product {
+    width: 1120px;
+}
+
+.heading-category {
+    color: #fff;
+    background-color: #000;
+    padding: 12px;
+}
+
+.list-category a{
+    display: block;
+    padding: 10px 20px;
+    line-height: 30px;
+    border: 10px;
+}
+
+.list-category a:hover{
+    opacity: 0.5;
+    
+}
+
+.ti-menu {
+    padding: 4px;
+}
+
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.product-list{
+    margin-top: 16px;
+}
+
+.col{
+    float: left;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.col-third{
+    width: calc( 100% / 3) !important;
+}
+.mt-16 {
+    margin-top: 20px !important;
+}
+.product-body{
+    width: 337px;
+    box-shadow: 0 0 6px rgba(0 , 0, 0, 0.5);
+    background-color: #fff;
+    padding: 16px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name-product {
+    line-height: 1.6;
+    padding: 16px 8px;
+    height: 130px;
+    
+}
+
+.price-product {
+    font-size: 18px;
+    padding: 0 8px;
+}
+
+.btn-buy {
+    font-size: 16px;
+    padding: 6px;
+    width: 120px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.btn-buy:hover {
+    opacity: 0.6;
+} 
+.mt-16 {
+    margin-top: 16px;
+}
+.product-inf:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.product-inf {
+    border-radius: 10px;
+
+}
+
+.product-img {
+    width: 337px;
+    display: block;
+    height: 245.33px !important;
+}
+
+.content-section-product .layout-product-hotpage {
+    margin-left: auto;
+    margin-right: auto;
+}
+.hot-heading {
+    background-color: #000;
+    color: #fff;
+    padding: 16px 0;
+    margin-top: 24px;
+} 
+.hot-heading h1{
+    text-align: center;
+    font-family: system-ui;
+}
+
+.product-hot {
+    float: right;
+    width: 80px;
+    height: 24px;
+    background-color: #d02d2d;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 24px;
+}
+/* End CSS product*/
+
+/* CSS phân trang */
+.phan-trang{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.inner-phan-trang{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.inner-phan-trang a{
+    display: inline-block;
+    padding: 7px 15px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 0 5px;
+    transition: all 0.3s;
+}
+.inner-phan-trang .active{
+    background-color: #000;
+    color: #fff;
+}
+.inner-phan-trang a:hover{
+    transform: translateY(-5px);
+    background-color: #000;
+    color: #fff;
+}
+/* END CSS phân trang */

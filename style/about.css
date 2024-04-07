@@ -1,0 +1,85 @@
+
+.container-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3%;
+    margin: 0;
+    vertical-align: baseline;
+    background-color: #ffffff;
+    height: 100vh;
+    min-height: 680px;
+    width: 100%;
+    min-width: var(--screen-md);
+    overflow: hidden;
+  }
+  .content h2 {
+    font-family: var(--font-family);
+    font-size: 2.5rem;
+    font-weight: 1000;
+    color: rgb(14, 14, 14);
+  }
+  .content > article {
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: #787878;
+    width: 60%;
+  }
+  #img {
+    padding-right: 8%;
+  }
+  .images {
+    background-position: center;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    z-index: 1;
+  }
+  .item2 > .circle,
+  .item3 > .circle {
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border: solid 3px #ffffff;
+  }
+  .item1 > .circle,
+  .item4 > .circle {
+    border-radius: 50%;
+   
+    box-shadow:  0 0 15px #000000;
+    border: solid 1px #ffffff;
+    position: absolute;
+  }
+  .item1 > .circle {
+    background-color: #ffffff;
+    width: 190px;
+    height: 190px;
+    bottom: -10px;
+    right: 20px;
+  }
+  .item4 > .circle {
+    background-color: #595959;
+      width: 150px;
+      height: 150px;
+      top: 0;
+      left: -20px;
+   
+  }
+  .container-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .imgs {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0.8rem;
+  }
+  

@@ -1,0 +1,81 @@
+.js-modal {
+    position: fixed;
+    top:0 ;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0 , 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.js-modal.open {
+    display: flex;
+}
+
+.js-modal_container{
+    background-color: #212021;
+    width: 400px;
+    height: 300px;
+    color: white;
+    
+}
+.choice  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 16px 0;
+    margin-top: 16px;
+    font-size: 20px;
+    
+}
+.choice a{
+    color: white;
+}
+.title-heading{
+   text-align: center;
+  margin-top: 90px;
+}
+.btn-confirm,
+.js-btn-cancel {
+    width: 100px;
+    padding: 14px 10px;
+    background-color: #464545;
+    
+}
+
+table tr th {
+    font-size: 24px;
+    padding: 24px;
+}
+
+tr td {
+    border-top: 1px solid #ccc;
+}
+
+.content-section-product table td{
+    padding: 24px;
+}
+
+.mr-56 {
+    margin-top: 56px !important; 
+}
+
+.text-cent {
+    text-align: center;
+}
+
+tr th .subnav{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.5);
+    min-width: 160px;
+    list-style-type: none;
+}
+
+tr th:hover .subnav{
+    display: block;
+}
+

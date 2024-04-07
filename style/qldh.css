@@ -1,0 +1,45 @@
+.inforbill {
+    display: flex;
+    flex-direction: column;
+}
+
+.inforbill .box-inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px 0; 
+    border-bottom: 1px solid #ccc;
+}
+
+.content-section-debill {
+    margin-top: 56px;
+    width: 950px;
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 56px;
+}
+
+.content-section-debill h1 {
+    text-align: center;
+}
+
+.cart-thead {
+    border-bottom: 1px solid #ccc;
+    padding: 18px 0;
+}
+  
+.btn-list {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 24px ;
+    padding: 16px 0;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+.btn-list:hover {
+    opacity: 0.5;
+}
